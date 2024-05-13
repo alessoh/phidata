@@ -33,6 +33,15 @@ Phidata is a framework for adding memory, knowledge and tools to LLMs. <br/> Mem
 pip install -U phidata
 ```
 
+Or you may install by:
+
+```shell
+git clone https://github.com/phidatahq/phidata.git
+cd phidata
+pip install -r requirements.txt
+```
+
+
 ## Example: Assistant that can search the web
 
 Create a file `assistant.py`
