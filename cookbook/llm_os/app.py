@@ -9,6 +9,7 @@ from phi.document.reader.website import WebsiteReader
 from phi.utils.log import logger
 
 from assistant import get_llm_os  # type: ignore
+#try
 
 nest_asyncio.apply()
 

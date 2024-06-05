@@ -52,7 +52,7 @@ class OpenAIEmbedder(Embedder):
         if self.request_params:
             _request_params.update(self.request_params)
         return self.client.embeddings.create(**_request_params)
-
+    
     def get_embedding(self, text: str) -> List[float]:
         response: CreateEmbeddingResponse = self._response(text=text)
         try:
